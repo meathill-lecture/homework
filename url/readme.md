@@ -22,4 +22,4 @@
 1. 使用 JS
 2. 完成一个独立文件，命名为 'url.js'，使用 ES6 modules
 3. 安装依赖 `npm i`
-4. 运行 `mocha url/test.js` 完成测试
+4. 运行 `./node_modules/.bin/mocha --require babel-register url/test.js` 完成测试
