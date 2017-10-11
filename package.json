@@ -1,0 +1,29 @@
+{
+  "name": "homework",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meathill-lecture/homework.git"
+  },
+  "keywords": [],
+  "author": "Meathill <meathill@gmail.com> (http://meathill.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meathill-lecture/homework/issues"
+  },
+  "homepage": "https://github.com/meathill-lecture/homework#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "lodash": "^4.17.4",
+    "mocha": "^4.0.1",
+    "should": "^13.1.2"
+  }
+}
