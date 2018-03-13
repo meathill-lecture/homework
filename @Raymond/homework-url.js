@@ -38,7 +38,7 @@ function fnSetUrls(_aUrl){
             if( cacheUrl_item === aUrl_item ) aUrl.splice(sub, 1);
         })
     })
-    return [...aUrl, ...cacheUrl];// 最后的结果
+    return [...aUrl, ...cacheUrl].sort();// 最后的结果
 }
 
 
