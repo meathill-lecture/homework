@@ -7,7 +7,7 @@ describe('uniqueURLs', () => {
     let before = ['a.com'];
     let after = uniqueURLs(before);
     it('should equal', () => {
-      before.should.equal(after);
+      before.should.eql(after);
     });
   });
 
@@ -15,7 +15,7 @@ describe('uniqueURLs', () => {
     let before = ['a.com', 'b.com'];
     let after = uniqueURLs(before);
     it('should equal', () => {
-      before.should.equal(after);
+      before.should.eql(after);
     });
   });
 
@@ -24,7 +24,7 @@ describe('uniqueURLs', () => {
     let after = uniqueURLs(before);
     let expected = ['*.a.com'];
     it('should equal', () => {
-      after.should.equal(expected);
+      after.should.eql(expected);
     });
   });
 
@@ -32,7 +32,7 @@ describe('uniqueURLs', () => {
     let before = ['a.com', '*.b.com'];
     let after = uniqueURLs(before);
     it('should equal', () => {
-      after.should.equal(before);
+      after.should.eql(before);
     });
   });
 
@@ -41,7 +41,7 @@ describe('uniqueURLs', () => {
     let after = uniqueURLs(before);
     let expect = ['*.a.com', 'b.com', 'c.b.com'];
     it('should equal', () => {
-      after.should.equal(expect);
+      after.should.eql(expect);
     });
   });
 
@@ -65,7 +65,7 @@ describe('uniqueURLs', () => {
       'meathill.me',
     ];
     it('should equal', () => {
-      after.should.equal(expect);
+      after.should.eql(expect);
     });
   });
 });
