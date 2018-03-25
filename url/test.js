@@ -3,6 +3,13 @@ import {shuffle} from 'lodash';
 import uniqueURLs from './url';
 
 describe('uniqueURLs', () => {
+  describe('null', () => {
+    let after = uniqueURLs();
+    it('should be empty array', () => {
+      after.should.eql([]);
+    });
+  });
+
   describe('1 item', () => {
     let before = ['a.com'];
     let after = uniqueURLs(before);
