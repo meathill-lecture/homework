@@ -18,11 +18,7 @@
   },
   "homepage": "https://github.com/meathill-lecture/homework#readme",
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
-    "lodash": "^4.17.11",
-    "mocha": "^5.2.0",
+    "lodash": "^4.17.15",
     "should": "^13.2.3"
   }
 }
