@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/meathill-lecture/homework#readme",
   "devDependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "should": "^13.2.3"
   }
 }
